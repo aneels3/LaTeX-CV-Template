@@ -1,0 +1,224 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Graduate Curriculum Vitae
+% LaTeX Template
+% Version 1.2 (3/28/15)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Rensselaer Polytechnic Institute 
+% (http://www.rpi.edu/dept/arc/training/latex/resumes/)
+%
+% Modified by:
+% Daniel L Marks <xleafr@gmail.com> 3/28/2015
+% 
+% Further modified by:
+% Anil Sharma <b150023ec@nitsikkim.ac.in> 02/24/2019
+%
+% Important note:
+% This template requires the simple_style.cls file to be in the same directory 
+% as the .tex file. The res.cls file provides the resume style used for 
+% structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%-------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%-------------------------------------------------------------------------------
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% You can have multiple style options the legal options ones are:
+%
+%   centered:	the name and address are centered at the top of the page 
+%				(default)
+%
+%   line:		the name is the left with a horizontal line then the address to
+%				the right
+%
+%   overlapped:	the section titles overlap the body text (default)
+%
+%   margin:		the section titles are to the left of the body text
+%		
+%   11pt:		use 11 point fonts instead of 10 point fonts
+%
+%   12pt:		use 12 point fonts instead of 10 point fonts
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[mm]{simple_style}  
+\usepackage{color}
+
+%accent color
+\definecolor{sectcol}{RGB}{4, 135, 124}
+
+%dark background color
+\definecolor{bgcol}{RGB}{133, 2, 10}
+
+%light background / accent color
+\definecolor{softcol}{RGB}{0,0,120}
+
+% Default font is the helvetica postscript font
+\usepackage{marvosym}
+\usepackage{fontawesome}
+\usepackage{helvet}
+\usepackage{hyperref}
+\usepackage{url}
+\usepackage{xcolor}
+\hypersetup {
+    colorlinks=true,
+    linkcolor=colorlink,
+    filecolor=magenta,      
+    urlcolor=colorlink,
+}
+\usepackage[left=0.5in, right=2.15in, top=0.4in]{geometry}
+
+% Increase text height
+\textheight=900pt
+
+\begin{document}
+%-------------------------------------------------------------------------------
+%	NAME\usepackage{xcolor}
+% \usepackage[colorlinks = true,
+% linkcolor = blue,
+% urlcolor  = blue,
+% citecolor = blue,
+% anchorcolor = blue]{hyperref}\usepackage{xcolor}
+% \usepackage{[colorlinks = true,
+% linkcolor = blue,
+% urlcolor  = blue,
+% citecolor = blue,
+% anchorcolor = blue]hyperref} %AND ADDRESS SECTION  
+%-------------------------------------------------------------------------------
+\name{\href{https://www.linkedin.com/in/aneels3/}{PRITAM PEGU}}
+\qualification{\textbf{Chemical Engineering, \href{https://www.nitap.ac.in}{NIT Arunachal Pradesh}}\\
+\textbf{Interest: Digital System Design and Verification}}
+\emailone{b150023ec@nitsikkim.ac.in}
+\emailtwo{aneels333@gmail.com}
+\website{http://aneels3.github.io/}{\url{https://aneels3.github.io/}}
+\github{https://github.com/aneels3}{\url{https://github.com/aneels3}}
+\phone{\Mobilefone{ +91-7602579355 $|$ +91-8145958800}}
+\address{Near Cenral Bank of India \\Rhenock, Sikkim, India}
+%-------------------------------------------------------------------------------
+\begin{resume}
+\vspace{-5mm}
+%-------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%-------------------------------------------------------------------------------
+\section{\textbf{\textcolor{softcol}{Education}}}
+\cusemph{National Institute of Technology Sikkim}, Ravangla, India.\\
+{\sl \textbf{Bachelor of Technology}}, Electronics and Communication Engineering. \timeline{2015 - 2019}\\
+\cusemph{CGPA: 7.54/10} \newline
+\newline
+\cusemph{Govt. Sr. Sec. School Rhenock}, Sikkim, India.\\
+{\sl \textbf{High School}}, CBSE\timeline{2014 - 2015}\\
+\cusemph{Percentage: 78.4 \%}\\
+% \newline
+
+% \cusemph{Govt. Sr. Sec. School Rhenock}, Sikkim, India.\\
+% {\sl \textbf{Secondary School}}, CBSE\timeline{2012 - 2013}\\
+% \cusemph{CGPA: 8.0/10}\\
+\vspace{-10mm}
+\sectionline
+% ------------------------------------------------------------------------------
+% Current Position section
+% ------------------------------------------------------------------------------
+\section{\textbf{\textcolor{softcol}{Current Position}}}
+\cusemph{}{ASIC Verification Trainee Engineer, \href{http://http://www.perfectvips.com/}{PerfectVIPs Techno Solutions Pvt. Ltd.}}\newline
+\duration{\textbf{Bhubaneshwar, India. Jul '19 - Present}}\\
+\sectionline
+%-------------------------------------------------------------------------------
+%	EXPERIENCE SECTION
+%-------------------------------------------------------------------------------
+\section{\textbf{\textcolor{softcol}{Experience}}}
+\begin{project}
+  \title{Summer Intern, \href{http://www.iitb.ac.in/}{Indian Institute of Technology Bombay}}
+  \supervisor{\textbf{Mentor : \href{https://www.ee.iitb.ac.in/~viren/}{Prof. Virendra Singh}}}
+  \duration{May '18 - Jul '18}
+  \description{
+	- Worked on hardware implementation of \href{https://en.wikipedia.org/wiki/Advanced_Encryption_Standard}{AES} algorithm.\\
+	- Technologies/Tools: Verilog HDL and Xilinx Vivado Software.
+  }
+\end{project}
+\begin{project}
+  \title{Summer Trainee, \href{http://www.mnnit.ac.in/}{Motilal Nehru National Institute of Technology Allahabad}}
+  \supervisor{\textbf{Topics Covered:VLSI Design and Embedded System}}
+  \description{
+	  - Covered basics concepts of VLSI Design and Embedded System.\\
+	  - Technologies/Tools: Verilog HDL, AT89C51,Xilinx ISE Design Suite and mikroC Pro.
+  }
+  \duration{Jun '17 - Jul '17}
+\end{project}
+% \vspace{-5mm}
+\sectionline
+%-------------------------------------------------------------------------------
+%	TECHNICAL SKILLS SECTION
+%-------------------------------------------------------------------------------
+\section{\textbf{\textcolor{softcol}{Technical\\Skills}}} 
+\cusemph{Programming Languages}
+ C, Verilog HDL, System Verilog HVL, Assembly (x86), Core Java, Python, \LaTeX.
+\\
+\cusemph{Software Tools}: Synopsys VCS, Xilinx ISE, Vivado, HFSS 13.0, MATLAB, PyCharm, IntelliJ IDEA.
+\\
+\cusemph{EDA $|$ FPGA Tools}: Cadence Virtuoso $|$ Basys-3.\\
+\cusemph{Platforms}: Comfortable with Windows and Linux System.\newline
+% \vspace{-5mm}
+\sectionline
+%-------------------------------------------------------------------------------
+%	PROJECTS SECTION
+%-------------------------------------------------------------------------------
+\section{\textbf{\textcolor{softcol}{Projects}}}
+\begin{project}
+  \title{Some Studies on Multi-Band Frequency Selective Surfaces:}
+  \supervisor{\textbf{BTech Major Project $|$ Supervisor: \href{http://ece.nitsikkim.ac.in/profile.php?sn=106}{Dr. Ayan Chatterjee}}}
+  \duration{Aug '18 - May '19}
+  \description{
+    - Designed different types of filter using HFSS 13.0 Software and analysing their performance and other parameters.
+  }
+  \end{project}
+\begin{project}
+\title{Single Pipelined 128 bit AES Algorithm:}
+\supervisor{\textbf{Topic : Cryptography $|$ Mentor : \href{https://www.ee.iitb.ac.in/~viren/}{Prof. Virendra Singh}}}
+\duration{May '18 - Jul '18}
+\description{
+	- Implemented a efficient \href{https://github.com/aneels3/HDL-Project}{Single Pipelined 128 bit AES} Encryption algorithm using Verilog HDL.
+}
+\end{project}
+\begin{project}
+	\title{Digital Clock:}
+	\supervisor{\textbf{Topic: Embedded System}}
+	\duration{Jun '17 - Jul '17}
+	\description{
+		- Designed a Digital Clock using Embedded C, AT89C51 micro Controller board and displayed the DATE, TIME and NAMES of days on 16X2 LCD Screen of the development board.
+	}
+\end{project}
+  % \begin{project}
+  %   \title{Design of CMOS Class C Power Amplifier:}
+  %   \supervisor{\textbf{Supervisor: \href{https://ece.nitsikkim.ac.in/profile.php?sn=4}{Dr. Sanjay Kumar Jana}}}
+  %   \duration{Jan '18 - May '18}
+  %   \description{
+  %     - Design of CMOS Class C Power Amplifier using Cadence Virtuoso Software.
+  %   }
+  %   \end{project}
+\vspace{-5mm}
+\sectionline
+%-------------------------------------------------------------------------------
+%	POSITION OF RESPONSIBILITY SECTION
+%-------------------------------------------------------------------------------
+\section{\textbf{\textcolor{softcol}{Position of\\Responsibility}}}
+\cusemph{}{Student Coordinator Training and Placement
+Cell, NIT Sikkim.}\\
+\cusemph{}{Technical Coordinator, UDGAM $|$ Cultural fest
+of NIT Sikkim.}\\
+\cusemph{}{Technical Coordinator, ABHIYANTRAN $|$ Technical fest
+of NIT Sikkim.}\\
+% \vspace{-5mm}
+\sectionline
+%-------------------------------------------------------------------------------
+%	HOBBIES SECTION
+%-------------------------------------------------------------------------------
+\section{\textbf{\textcolor{softcol}{Hobbies}}}
+\cusemph{}{Singing, Travelling, Playing Chess, Cricket and Football.}
+%-------------------------------------------------------------------------------
+\end{resume}
+\end{document}
