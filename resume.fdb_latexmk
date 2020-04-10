@@ -1,8 +1,8 @@
 # Fdb version 3
-["pdflatex"] 1582759719 "/home/anil/Desktop/final/final_resume/Resume-master/Simple/resume.tex" "/home/anil/Desktop/final/final_resume/Resume-master/Simple/resume.pdf" "resume" 1582759719
+["pdflatex"] 1586543396 "/home/anil/Desktop/LaTex/resume.tex" "/home/anil/Desktop/LaTex/resume.pdf" "resume" 1586543422
   "/etc/texmf/web2c/texmf.cnf" 1550972367 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/anil/Desktop/final/final_resume/Resume-master/Simple/resume.aux" 1582759552 8 a94a2480d3289e625eea47cd1b285758 ""
-  "/home/anil/Desktop/final/final_resume/Resume-master/Simple/resume.tex" 1582759718 9118 e0b558856f1f22da6a12a2f21bdc521c ""
+  "/home/anil/Desktop/LaTex/resume.aux" 1586541445 8 a94a2480d3289e625eea47cd1b285758 ""
+  "/home/anil/Desktop/LaTex/resume.tex" 1586543422 9125 7c68ab8afa2e1e6a131a44cef3ba0c63 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1480098670 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1480098701 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1480098701 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -75,11 +75,13 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1503024366 32036 8f10cb8f6ef259fb5791f09c065d3d13 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1550974592 2377213 8bc19c9e6d8db8e1c35694d1be199981 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1550974602 4125754 b73fbb9caf7dbef437220f7b212972dd ""
-  "resume.aux" 1582759552 8 a94a2480d3289e625eea47cd1b285758 ""
-  "resume.tex" 1582759718 9118 e0b558856f1f22da6a12a2f21bdc521c ""
-  "simple_style.cls" 1480523303 28806 46ff10462377d7b6080157da808c70a9 ""
+  "resume.aux" 1586541445 8 a94a2480d3289e625eea47cd1b285758 ""
+  "resume.tex" 1586543422 9125 7c68ab8afa2e1e6a131a44cef3ba0c63 ""
+  "simple_style.cls" 1586541445 28806 46ff10462377d7b6080157da808c70a9 ""
   (generated)
-  "resume.pdf"
-  "/home/anil/Desktop/final/final_resume/Resume-master/Simple/resume.log"
   "resume.log"
+  "/home/anil/Desktop/LaTex/resume.log"
   "/home/anil/Desktop/final/final_resume/Resume-master/Simple/resume.pdf"
+  "/home/anil/Desktop/final/final_resume/Resume-master/Simple/resume.log"
+  "resume.pdf"
+  "/home/anil/Desktop/LaTex/resume.pdf"
